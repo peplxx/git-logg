@@ -9,7 +9,7 @@ fi
 # Read alias files 
 for alias_file in ./aliases/*.sh; do
 	# Read each line in alias file
-	while IFS='=' read -r alias comand; do
+	while IFS='=' read -r alias command; do
 		# Skip empty lines and lines which starts with #
 		[[ -z "$alias" || "$alias" == \#* ]] && continue
 		
