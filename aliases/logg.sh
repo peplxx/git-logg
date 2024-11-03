@@ -1,0 +1,1 @@
+logg=log --all --color --date='format:%Y-%m-%d %H:%M:%S' --decorate=short --graph --pretty=format:'%C(bold dim white)%ad%C(reset) %C(bold dim cyan)%<(20,trunc)%an%C(reset) %C(bold cyan)%h%C(reset)%C(auto)%d%C(reset)%n%C(dim white)%<(19,trunc)%ar%C(reset) %C(dim cyan)%<(20,trunc)%ae%C(reset) %C(bold white)Commit:%C(reset) %C(white)%s%C(reset)%n'
